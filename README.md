@@ -43,7 +43,8 @@ After training and evaluation:
 3. Run the Streamlit app: `streamlit run streamlit_app.py`
 4. Input transaction data manually or extend the app to support batch processing via CSV.
 
-
+## 🤝 Contributions
+Contributions, issues, and feature requests are welcome! Feel free to open an issue or submit a pull request.
 
 ---
 
