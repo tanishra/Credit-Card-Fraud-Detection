@@ -1,10 +1,12 @@
-# FraudShield: Smart Credit Card Transaction Fraud Detection
+# Credit Card Transaction Fraud Detection
 
 ## Overview
-FraudShield is an intelligent machine learning project designed to detect fraudulent credit card transactions with high accuracy. Using a dataset of real European cardholders’ transactions, this project leverages multiple ensemble learning techniques to address the highly imbalanced classification problem of fraud detection.
+It is an intelligent machine learning project designed to detect fraudulent credit card transactions with high accuracy. Using a dataset of real European cardholders’ transactions, this project leverages multiple ensemble learning techniques to address the highly imbalanced classification problem of fraud detection.
 
 ## Dataset
 The dataset contains transactions made over two days in September 2013, including 492 fraud cases out of 284,807 total transactions (~0.172% fraud). Features are anonymized principal components (`V1` to `V28`) derived by PCA, plus `Time` and `Amount`.
+[Credit Card Fraud Detection Dataset – Kaggle](https://www.kaggle.com/datasets/mlg-ulb/creditcardfraud)
+
 
 ## Techniques Explored
 To tackle the problem, I implemented and compared several ensemble learning algorithms:
@@ -41,13 +43,8 @@ After training and evaluation:
 3. Run the Streamlit app: `streamlit run streamlit_app.py`
 4. Input transaction data manually or extend the app to support batch processing via CSV.
 
-## Future Improvements
-- Incorporate more explainability (SHAP values) to understand model decisions.
-- Add automated threshold tuning to balance precision and recall based on use-case.
-- Extend UI to support batch predictions with upload/download functionality.
-- Experiment with anomaly detection models for unsupervised fraud detection.
+
 
 ---
 
-*Developed by Tanish Rajput*
 
